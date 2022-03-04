@@ -66,8 +66,8 @@ public class Board
     /**
      * checks whether the remainder of a string, starting with the index can be found in a non-repeating sequence of
      * adjacent letters in the grid, starting in the immediate neighborhood of the given (row, col).
-     * @param s - the string (all upppercase, in its entirety) we are looking for
-     * @param index - the index of the string that we are starting to look for in this recursion
+     * @param s - the string (all upppercase, in its entirety) that we are looking for
+     * @param index - the index in the string where we are starting to look in this recursion
      * @param row - the row where the previous (index-1) letter was found
      * @param col - the col where the previous (index-1) letter was found
      * @return - whether we find the string or not.
